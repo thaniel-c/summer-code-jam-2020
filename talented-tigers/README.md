@@ -61,7 +61,7 @@ written inside of it (replace `your_key_here` with your API key)
   * [Git](https://git-scm.com/)
   * [Python 3](https://python.org) (Make sure it is added to your system's path)
 
-### Setup using run scripts
+### Setup by Using Run Scripts
 
 #### Setup (Windows):
   * Install [Docker for Windows](https://docs.docker.com/docker-for-windows) (or [Docker for Windows 10 *Home*](https://docs.docker.com/docker-for-windows/install-windows-home/)).
