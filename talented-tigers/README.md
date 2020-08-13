@@ -12,13 +12,13 @@
 
 Blast off to the past and surf the web 90s style! With SpydirWeb, you can browse a your own private version of the early internet! Get lost in hundreds of webpages, all generated with AI text generation, webscraping, and other methods to bring you an immersive experience! 
 
-## Table of Contents
+# Table of Contents
   * [Overview](#overview)
   * [Installation](#installation)
   * [License](#license)
   * [Authors](#Authors)
 
-## Overview
+# Overview
 
 **SpydirWeb** has three different types of pages: Information, Blogs, and Business. The blog and business pages use [OpenAi's gpt-2](https://github.com/openai/gpt-2) AI to generate the content, while the info pages use the [Wikipedia](https://pypi.org/project/wikipedia/) package. Images are retrieved using the [Pixabay API](https://pixabay.com/api/docs/).
 
@@ -38,25 +38,25 @@ That's it! Have fun browsing!
 
 ![](readme/blogdone.png)
  
-## Installation
+# Installation
 
 Before we start, make sure you have at least 1 GB of free space.
 
-**Code Jam Judges Only**:
+##### Code Jam Judges Only:
 Please check the `#talented-tigers` channel on the discord server. Copy and paste the text block we sent into a file called `.env` in the `talented-tigers` directory.
 
-**Non-Code-Jam-Judges Only**:
+##### Non-Code-Jam-Judges Only:
 You will need your own API key for Pixabay, which SpydirWeb use for collecting images. Go to [Pixabay's website](https://pixabay.com/api/docs/) to get a key and then make a new file called `.env` with:
 ```
 API_KEY=your_key_here
 ```
 written inside of it (replace `your_key_here` with your API key)
 
-**Requirements (All)**:
+##### Requirements (All):
   * [Git](https://git-scm.com/)
   * [Python 3](https://python.org) (Make sure it is added to your system's path)
 
-**Setup (Windows)**:
+##### Setup (Windows):
   * Install [Docker for Windows](https://docs.docker.com/docker-for-windows) (or [Docker for Windows 10 *Home*](https://docs.docker.com/docker-for-windows/install-windows-home/)).
   * Install pipenv with `pip install pipenv`
   * Open a powershell window and clone the repository by running `git clone https://github.com/thaniel-c/summer-code-jam-2020.git`
@@ -65,7 +65,7 @@ written inside of it (replace `your_key_here` with your API key)
     * `pipenv run python run-windows.py`
   * The last command will run the website locally, you will be able to view the website at the address `localhost:8000`.
 
-**Setup (Linux)**:
+##### Setup (Linux):
   * Install [Docker](https://docs.docker.com/engine/install/) (Or for Arch - [Docker on Arch](https://www.google.com/search?client=firefox-b-1-d&q=docker+arch))
   * Clone the repository by running `git clone https://github.com/thaniel-c/summer-code-jam-2020.git`
   * Next install `pipenv` by running `pip3 install pipenv` (may require `sudo` if it isn't automatically added to path, you can test it with `pipenv --version`. Also make sure pip is installed: https://pip.pypa.io/en/stable/installing/)
@@ -75,13 +75,14 @@ written inside of it (replace `your_key_here` with your API key)
     * `pipenv run python3 run-linux.py`
   * The last command will run the website locally, you will be able to view the website at the address `localhost:8000`.
 
-**Alternatively** you can run each command in the run scripts one by one, the run scripts only exist to better hide the API key and make the setup process shorter. These are the commands:
+##### Alternative Installation
+Alternatively, you can run each command in the run scripts one by one, the run scripts only exist to better hide the API key and make the setup process shorter. These are the commands:
 
-Windows commands:
+##### Windows commands:
   * `docker build -t spydirweb -f Dockerfile .`
   * `docker run -e <API KEY> -it -p 8000:8000 spydirweb`
 
-Linux commands:
+##### Linux commands:
   * `sudo docker build -t spydirweb -f Dockerfile .`
   * `sudo docker run -e <API KEY> -it -p 8000:8000 spydirweb`
 
@@ -92,7 +93,7 @@ Installation and loading can take a while as we need to setup the models for the
 
 **Note**: Be sure to view the site at http://localhost:8000, other hosts may not work as expected.
 
-## License
+# License
 MIT License
 
 Copyright (c) 2020 Python Discord
@@ -115,7 +116,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Authors
+# Authors
 Team Talented Tigers is..
 * **Nathan Coulas (GitHub: [thaniel-c](https://github.com/thaniel-c), Discord: [thaniel#3631](https://discordapp.com/channels/@me/703922100112457778/))**
 * **Sloopoo (GitHub: [flextian](https://github.com/flextian))**
