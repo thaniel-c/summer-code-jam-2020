@@ -63,7 +63,7 @@ written inside of it (replace `your_key_here` with your API key)
   * Then run these following commands:
     * `cd summer-code-jam-2020/talented-tigers`
     * `pipenv run python run-windows.py`
-  * The last command will run the website locally, you will be able to view the website at the address `0.0.0.0:8000`.
+  * The last command will run the website locally, you will be able to view the website at the address `localhost:8000`.
 
 **Setup (Linux)**:
   * Install [Docker](https://docs.docker.com/engine/install/) (Or for Arch - [Docker on Arch](https://www.google.com/search?client=firefox-b-1-d&q=docker+arch))
