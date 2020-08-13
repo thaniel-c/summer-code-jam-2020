@@ -19,7 +19,12 @@ Blast off to the past and surf the web 90s style! With SpydirWeb, you can browse
       * [Code Jam Judges](https://github.com/thaniel-c/summer-code-jam-2020/tree/master/talented-tigers#code-jam-judges-only)
       * [Non-Code-Jam-Judges](https://github.com/thaniel-c/summer-code-jam-2020/tree/master/talented-tigers#non-code-jam-judges-only)
     * [Requirements](https://github.com/thaniel-c/summer-code-jam-2020/tree/master/talented-tigers#requirements-all)
-    * 
+    * [Setup by Using Run Scripts](https://github.com/thaniel-c/summer-code-jam-2020/tree/master/talented-tigers#setup-by-using-run-scripts)
+      * [Setup (Windows)](https://github.com/thaniel-c/summer-code-jam-2020/tree/master/talented-tigers#setup-windows)
+      * [Setup (Linux)](https://github.com/thaniel-c/summer-code-jam-2020/tree/master/talented-tigers#setup-linux)
+    * [Setup by Running Commands One At a Time](https://github.com/thaniel-c/summer-code-jam-2020/tree/master/talented-tigers#setup-by-running-commands-one-at-a-time)
+      * [Commands (Windows)](https://github.com/thaniel-c/summer-code-jam-2020/tree/master/talented-tigers#commands-windows)
+      * [Commands (Linux)](https://github.com/thaniel-c/summer-code-jam-2020/tree/master/talented-tigers#commands-linux)
   * [License](#license)
   * [Authors](#Authors)
 
