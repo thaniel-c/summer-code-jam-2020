@@ -15,6 +15,11 @@ Blast off to the past and surf the web 90s style! With SpydirWeb, you can browse
 # Table of Contents
   * [Overview](#overview)
   * [Installation](#installation)
+    * API Key
+      * [Code Jam Judges](https://github.com/thaniel-c/summer-code-jam-2020/tree/master/talented-tigers#code-jam-judges-only)
+      * [Non-Code-Jam-Judges](https://github.com/thaniel-c/summer-code-jam-2020/tree/master/talented-tigers#non-code-jam-judges-only)
+    * [Requirements](https://github.com/thaniel-c/summer-code-jam-2020/tree/master/talented-tigers#requirements-all)
+    * 
   * [License](#license)
   * [Authors](#Authors)
 
@@ -42,19 +47,21 @@ That's it! Have fun browsing!
 
 Before we start, make sure you have at least 1 GB of free space.
 
-#### Code Jam Judges Only:
+### Code Jam Judges Only:
 Please check the `#talented-tigers` channel on the discord server. Copy and paste the text block we sent into a file called `.env` in the `talented-tigers` directory.
 
-#### Non-Code-Jam-Judges Only:
+### Non-Code-Jam-Judges Only:
 You will need your own API key for Pixabay, which SpydirWeb use for collecting images. Go to [Pixabay's website](https://pixabay.com/api/docs/) to get a key and then make a new file called `.env` with:
 ```
 API_KEY=your_key_here
 ```
 written inside of it (replace `your_key_here` with your API key)
 
-#### Requirements (All):
+### Requirements (All):
   * [Git](https://git-scm.com/)
   * [Python 3](https://python.org) (Make sure it is added to your system's path)
+
+### Setup using run scripts
 
 #### Setup (Windows):
   * Install [Docker for Windows](https://docs.docker.com/docker-for-windows) (or [Docker for Windows 10 *Home*](https://docs.docker.com/docker-for-windows/install-windows-home/)).
@@ -75,14 +82,14 @@ written inside of it (replace `your_key_here` with your API key)
     * `pipenv run python3 run-linux.py`
   * The last command will run the website locally, you will be able to view the website at the address `localhost:8000`.
 
-#### Alternative Installation
+### Setup by Running Commands One At a Time
 Alternatively, you can run each command in the run scripts one by one, the run scripts only exist to better hide the API key and make the setup process shorter. These are the commands:
 
-#### Windows commands:
+#### Commands (Windows):
   * `docker build -t spydirweb -f Dockerfile .`
   * `docker run -e <API KEY> -it -p 8000:8000 spydirweb`
 
-#### Linux commands:
+#### Commands (Linux):
   * `sudo docker build -t spydirweb -f Dockerfile .`
   * `sudo docker run -e <API KEY> -it -p 8000:8000 spydirweb`
 
