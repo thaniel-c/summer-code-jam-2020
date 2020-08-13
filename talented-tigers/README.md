@@ -75,6 +75,19 @@ written inside of it (replace `your_key_here` with your API key)
     * `pipenv run python3 run-linux.py`
   * The last command will run the website locally, you will be able to view the website at the address `localhost:8000`.
 
+**Alternatively** you can run each command in the run scripts one by one, the run scripts only exist to better hide the API key and make the setup process shorter. These are the commands:
+
+Windows commands:
+  * `docker build -t spydirweb -f Dockerfile .`
+  * `docker run -e <API KEY> -it -p 8000:8000 spydirweb`
+
+Linux commands:
+  * `sudo docker build -t spydirweb -f Dockerfile .`
+  * `sudo docker run -e <API KEY> -it -p 8000:8000 spydirweb`
+
+If you decide to run the site this way, replace `<API KEY>` with your Pixabay API key. The `.env` file is **not** needed.
+
+
 Installation and loading can take a while as we need to setup the models for the AI as well as the dictionary for the link parser. Hang in there!
 
 **Note**: Be sure to view the site at http://localhost:8000, other hosts may not work as expected.
