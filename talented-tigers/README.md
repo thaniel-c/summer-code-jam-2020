@@ -77,6 +77,8 @@ written inside of it (replace `your_key_here` with your API key)
 
 Installation and loading can take a while as we need to setup the models for the AI as well as the dictionary for the link parser. Hang in there!
 
+**Note**: Be sure to view the site at http://localhost:8000, other hosts may not work as expected.
+
 ## License
 MIT License
 
