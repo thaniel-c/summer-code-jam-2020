@@ -19,4 +19,4 @@ RUN pipenv run python3 ./manage.py migrate
 RUN pipenv run python3 ./manage.py generatepages Memes,INFO Pencil,BIZ Tigers,BLOG
 
 # Go into the pipenv shell and run the code
-CMD pipenv run python3 ./manage.py runserver 0.0.0.0:8000
+CMD pipenv run python3 ./manage.py runserver localhost:8000
